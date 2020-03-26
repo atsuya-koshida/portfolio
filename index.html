@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Atsuya-portfolio</title>
+    <link rel="stylesheet" href="styles/loader.css" />
+    <script src="scripts/vendors/pace.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Kameron:400,700|Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="styles/vendors/swiper.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div id="global-container">
+      <div id="container">
+        <div class="mobile-menu__cover"></div>
+        <div class="nav-trigger"></div>
+        <header class="header">
+          <div class="header__inner appear up">
+            <nav class="header__nav">
+              <ul class="header__ul">
+                <li class="header__li item"><a href="#top">Top</a></li>
+                <li class="header__li item"><a href="#about">About</a></li>
+                <li class="header__li item"><a href="#works">Works</a></li>
+                <li class="header__li item"><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div id="content">
+          <div class="hero" id="top">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="hero__title">FURIMA</div>
+                  <img src="images/furima.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero__title">Bulk History</div>
+                  <img src="images/bulk-history-complete.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero__title">My Portfolio</div>
+                  <img src="images/portfolio.jpg" alt="" />
+                </div>
+              </div>
+              <div class="hero__footer">
+                <img class="hero__downarrow" src="images/arrow.svg" />
+                <span class="hero__scrolltext">scroll</span>
+              </div>
+            </div>
+          </div>
+          <div id="main-content">
+            <aside class="side left">
+              <div class="side__inner">
+                <a
+                  target="_blank"
+                  class="twitter icon tween-animate-title"
+                  href="https://twitter.com/atsuya_koshida"
+                  >Twitter</a
+                >
+                <a class="github icon tween-animate-title" target="_blank" href="https://github.com/atsuya-koshida">GitHub</a>
+              </div>
+            </aside>
+            <main>
+              <section class="about" id="about">
+                <div>
+                  <h2 class="main-title tween-animate-title">
+                    About
+                  </h2>
+                  <p class="sub-title tween-animate-title">
+                    私の経歴・プロフィール
+                  </p>
+                </div>
+                <div class="about__inner">
+                  <div class="about__img cover-slide">
+                    <img
+                      class="img-zoom"
+                      src="images/mypicture3.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="about__texts appear left">
+                    <div class="about__texts-inner">
+                      <div class="about__description item">
+                        <p>初めまして、ポートフォリオを見ていただきありがとうございます！越田敦也といいます。 1997/11/24生</p>
+                        <br>
+                        <p>2018年3月専門学校ミュージシャンズ・インスティテュート東京卒業</p>
+                        <br>
+                        <p>卒業後は自身のバンドでの作詞・作曲やライブ活動、そして歌のレコーディングの仕事を中心に活動していました。</p>
+                        <br>
+                        <p>YouTube広告をきっかけにプログラミングに興味を持ちTECHCAMPに入学。</p>
+                        <p>日々の学習やチーム開発を進める中でプログラミングの楽しさ・可能性に触れることができ、これを仕事にしたいと思いました。</p>
+                        <br>
+                        <p>学習している言語・技術</p>
+                        <p>HTML/CSS, JavaScript, Ruby on Rails, AWS, SQL, Git/GitHub</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="works" id="works">
+                <div>
+                  <h2 class="main-title tween-animate-title">
+                    My Works
+                  </h2>
+                  <p class="sub-title tween-animate-title">
+                    これまでの制作物
+                  </p>
+                </div>
+                <div class="works__inner">
+                  <div class="works__item">
+                    <div class="cover-slide hover-darken">
+                      <div class="bg-img-zoom img-bg50" style="background-image: url(images/furima.jpg)"></div>
+                    </div>
+                    <a href="http://52.196.181.252/" target="_blank" class="works__title">FURIMA</a>
+                    <p>使用技術: Ruby on Rails, JavaScript, AWS</p>
+                    <p>ユーザーが出品も購入も可能なフリーマーケットアプリケーションです。</p>
+                    <p>スクールの最終課題として取り組み、開発はチームを組んでのアジャイル開発で進めました。</p>
+                    <p>主にAWSを利用してのデプロイ・商品購入機能・クレジットカード機能のフロント/サーバーサイドの実装を担当しました。</p>
+                  </div>
+                  <div class="works__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="background-image: url(images/bulk-history-complete.jpg)"
+                      ></div>
+                    </div>
+                    <a href="http://52.198.106.57/" target="_blank" class="works__title">Bulk History</a>
+                    <p>(※開発中)</p>
+                    <p>使用技術: Ruby on Rails, JavaScript, AWS</p>
+                    <p>トレーニングの記録ができるアプリです。</p>
+                    <p>趣味で筋トレをするので日々の記録ができるアプリが欲しいと思い作成しました。</p>
+                    <p>トレーニングの種目を登録することができ、それぞれの種目に対して扱った重量・回数を記録することができます。</p>
+                  </div>
+                </div>
+              </section>
+            </main>
+          </div>
+        </div>
+        <footer class="footer appear up" id="contact">
+          <nav class="footer__nav">
+            <ul class="footer__ul">
+              <li class="footer__li"><a href="#">Top</a></li>
+              <li class="footer__li"><a href="https://twitter.com/atsuya_koshida" target="_blank">Twitter</a></li>
+              <li class="footer__li"><a href="https://github.com/atsuya-koshida" target="_blank">GitHub</a></li>
+            </ul>
+          </nav>
+        </footer>
+      </div>
+    </div>
+    <script src="scripts/vendors/swiper.min.js"></script>
+    <script src="scripts/vendors/TweenMax.min.js"></script>
+    <script src="scripts/vendors/scroll-polyfill.js"></script>
+    <script src="scripts/libs/scroll.js"></script>
+    <script src="scripts/libs/text-animation.js"></script>
+    <script src="scripts/libs/hero-slider.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
